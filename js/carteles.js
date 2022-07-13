@@ -7,6 +7,9 @@ function obtenerDatos() {
     alert (`tu nombre es ${nombre} y tu edad es ${edad}`);
 }
 
+obtenerDatos()
+
+
 function mayorDeEdad() {
     let edad = prompt("introduzca su edad"); 
     if  (edad >= 18) {
