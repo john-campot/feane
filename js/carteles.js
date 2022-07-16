@@ -3,8 +3,8 @@ console.log ("Hola, bienvenido a cafedel");
 
 function obtenerDatos() {
     let nombre = prompt("introduzca su nombre:");
-    let edad = prompt("introduzca su edad:"); 
-    alert (`tu nombre es ${nombre} y tu edad es ${edad}`);
+    let apellido = prompt("introduzca su apellido:"); 
+    alert (`tu nombre es ${nombre} y tu apellido es ${apellido}`);
 }
 
 obtenerDatos()
@@ -25,6 +25,11 @@ sumar();
 sumarConParametros(4, 6);
 obtenerDatos(); 
 
+let tiposDeCafe = ["cafeExpreso", "cafeRistretto", "cafeCapucchino", "cafeConPanna",
+]
 
+tiposDeCafe[4] = "cafeAfogatto";
+tiposDeCafe[5] = "cafeMachiatto";
 
+document.write (tiposDeCafe[0]);
 
