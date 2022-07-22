@@ -1,3 +1,5 @@
+obtenerDatos()
+
 alert ("Hola, bienvenido a cafedel");
 console.log ("Hola, bienvenido a cafedel");
 
@@ -7,7 +9,6 @@ function obtenerDatos() {
     alert (`tu nombre es ${nombre} y tu apellido es ${apellido}`);
 }
 
-obtenerDatos()
 
 
 function mayorDeEdad() {
@@ -21,9 +22,9 @@ function mayorDeEdad() {
 
 mayorDeEdad();    
 
-sumar();
+
 sumarConParametros(4, 6);
-obtenerDatos(); 
+ 
 
 let tiposDeCafe = ["cafeExpreso", "cafeRistretto", "cafeCapucchino", "cafeConPanna",
 ]
