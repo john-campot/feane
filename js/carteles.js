@@ -34,3 +34,20 @@ tiposDeCafe[5] = "cafeMachiatto";
 
 document.write (tiposDeCafe[0]);
 
+function seleccionCafe(){
+    let cafe = prompt("Seleccione el cafe que desea")
+    if  (cafe == 1) {
+        alert("Cafe Expreso!");
+    }
+    else if (cafe == 2) {
+         alert("Cafe Ristretto!");
+   
+    }
+    if (cafe == 3) {
+        alert("Cafe Capucchino!");    
+    }
+        seleccionCafe(1, 2, 3);  }
+
+    
+
+
