@@ -1,3 +1,4 @@
+console.log (document)
 obtenerDatos()
 
 alert ("Hola, bienvenido a cafedel");
@@ -23,7 +24,7 @@ function mayorDeEdad() {
 mayorDeEdad();    
 
 
-sumarConParametros(4, 6);
+
  
 
 let tiposDeCafe = ["cafeExpreso", "cafeRistretto", "cafeCapucchino", "cafeConPanna",
@@ -48,6 +49,13 @@ function seleccionCafe(){
     }
         seleccionCafe(1, 2, 3);  }
 
-    
+        let boton = document.getElementById("comprarbtn1")
+
+        boton.addEventListener("click", agregado)
+
+        function agregado(){    
+            console.log("agregado");
+            };
+                  
 
 
