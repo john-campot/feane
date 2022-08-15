@@ -49,13 +49,11 @@ function seleccionCafe(){
     }
         seleccionCafe(1, 2, 3);  }
 
-        let boton = document.getElementById("comprarbtn1")
 
-        boton.addEventListener("click", agregado)
-
-        function agregado(){    
-            console.log("agregado");
-            };
-                  
+let boton = document.getElementById("Comprar");
+boton.addEventListener("click", agregar);;
+function agregar(){
+    console.log("agregar");
+}
 
 
